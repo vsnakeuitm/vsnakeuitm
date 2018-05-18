@@ -237,7 +237,7 @@ push()
 textSize(40)
 textAlign(CENTER)
 fill(255, 0, 0, 255 - frameCount * 10)
-text("VOICE RECOGNITION \n NOT \n AVAILABLE", width / 2, 40)
+text("V-SNAKE  \n by Azuan, Faiz and Ridhwan", width / 2, 40)
 pop()
 }
 
