@@ -230,7 +230,7 @@ textSize(30)
 text("COMMAND: \n" + most_recent_word + "  ", width, 40)
 
 fill(255, 100, 0,100)
-ext("Difficulty:" + difficulty.toFixed(2)+ "  ", width, 110)
+text("Difficulty:" + difficulty.toFixed(2)+ "  ", width, 110)
 pop()
 } else {
 push()
