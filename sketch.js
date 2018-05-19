@@ -145,7 +145,7 @@ textAlign(CENTER)
 
 textSize(20)
 fill(27, 225, 124, 140)
-<!--text("score:" + score.toFixed(2), width / 5, height / 20)-->
+text("score:" + score.toFixed(2), width / 5, height / 20)
 
 
 if(walls){
@@ -227,10 +227,10 @@ text("commands available:: LEFT \t RIGHT \t UP \t DOWN \t STOP \t START \t FAST 
 textAlign(RIGHT)
 fill(0, 255, 0, 90)
 textSize(30)
-<!--text("COMMAND: \n" + most_recent_word + "  ", width, 40)-->
+text("COMMAND: \n" + most_recent_word + "  ", width, 40)
 
 fill(255, 100, 0,100)
-<!--text("Difficulty:" + difficulty.toFixed(2)+ "  ", width, 110)-->
+ext("Difficulty:" + difficulty.toFixed(2)+ "  ", width, 110)
 pop()
 } else {
 push()
