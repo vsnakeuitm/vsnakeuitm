@@ -318,6 +318,7 @@ if (most_recent_word.indexOf("start") !== -1) {
 else
 	if (most_recent_word.indexOf("reset") !== -1) {
 		reset()
+		difficulty = 0.5
 	}
 	else
 		if (most_recent_word.indexOf("reload") !== -1) {
